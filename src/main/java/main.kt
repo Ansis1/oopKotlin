@@ -11,11 +11,26 @@ data class Post(
 
 object WallService { //Singletone
 
+    private var posts = emptyArray<Post>() //создаем массив для хранения постов
     fun add(post: Post): Post {
-
-        return post
+        posts += post // добавляем в массив и возвращаем последний элемент.
+        return posts.last()
 
     }
+
+    fun likeById(id: Int) { //ищем по id
+
+        for ((index, post) in posts.withIndex()) {
+
+            if (post.id == id) {
+
+                posts[index] = post.copy(likes = post.likes + 1)
+
+            }
+        }
+    }
+
+
 
 }
 
