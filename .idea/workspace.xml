@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71ecce22-803b-4aa6-a9b9-26a96eb3afb5" name="Changes" comment="add Data classes&#10;-добавили идентификатор data перед class&#10;-у параметров установили val и убрали кастомный setter&#10;-в перем. liked скопировали класс Post и установили изм. likes.">
-      <change beforePath="$PROJECT_DIR$/src/main/java/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main.kt" afterDir="false" />
-    </list>
+    <list default="true" id="71ecce22-803b-4aa6-a9b9-26a96eb3afb5" name="Changes" comment="Data classes деструктуризация&#10;-получаем значения необх. полей &#10; val(имя поля1, _, имя поля 3) = перем. класса" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,7 +90,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697313901992</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Data classes деструктуризация&#10;-получаем значения необх. полей &#10; val(имя поля1, _, имя поля 3) = перем. класса">
+      <option name="closed" value="true" />
+      <created>1697314347306</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697314347306</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,7 +117,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="add Data classes&#10;-добавили идентификатор data перед class&#10;-у параметров установили val и убрали кастомный setter&#10;-в перем. liked скопировали класс Post и установили изм. likes." />
-    <option name="LAST_COMMIT_MESSAGE" value="add Data classes&#10;-добавили идентификатор data перед class&#10;-у параметров установили val и убрали кастомный setter&#10;-в перем. liked скопировали класс Post и установили изм. likes." />
+    <MESSAGE value="Data classes деструктуризация&#10;-получаем значения необх. полей &#10; val(имя поля1, _, имя поля 3) = перем. класса" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data classes деструктуризация&#10;-получаем значения необх. полей &#10; val(имя поля1, _, имя поля 3) = перем. класса" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

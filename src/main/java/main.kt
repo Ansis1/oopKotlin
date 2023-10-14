@@ -9,6 +9,16 @@ data class Post(
     val likes: Int,
 )
 
+object WallService { //Singletone
+
+    fun add(post: Post): Post {
+
+        return post
+
+    }
+
+}
+
 fun main() {
 
     val post = Post(1, 1, "author", "content", likes = 0, published = 0)
