@@ -15,6 +15,8 @@ fun main() {
     val liked = post.copy(likes = post.likes + 1) //создаем копию класса и указываем только измененные параметры!
     //data классы предоставляют встроеннуюб функцию преобразования в строку
     //Post(id=1, authorId=1, authorName=author, content=content, published=0, likes=1)
+    val (id, authorId, _, content) = post //получаем значения нужных полей (деструктуризация),
+    //если поле не надо получать, ставим "_"
     println(liked)
-
+    println("$id, $authorId, $content") //выводим полученные значения.
 }
